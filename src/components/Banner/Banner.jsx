@@ -15,7 +15,7 @@ const Banner = () => {
 
         setMovie(
           request.data.results[
-            math.floor(Math.random() * request.data.results.length)
+            Math.floor(Math.random() * request.data.results.length)
           ]
         );
       } catch (error) {
@@ -42,8 +42,8 @@ const Banner = () => {
           {movie?.title || movie?.name || movie?.original_name}
         </h1>
         <div className="banner__buttons">
-          <button className="bunner__button play">Play</button>
-          <button className="bunner__button">My List</button>
+          <button className="banner__button play">Play</button>
+          <button className="banner__button">My List</button>
         </div>
 
         <h1 className="banner__description">

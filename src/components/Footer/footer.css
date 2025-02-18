@@ -3,6 +3,7 @@
     color: grey;
     display: flex;
     justify-content: center;
+    padding-top: 20px;
 }
 .footer_inner_container{
     width: 60%;
@@ -13,7 +14,8 @@
     width:12%;
     display: flex;
     margin-left: 10px;
-    color:#fff
+    color:#fff;
+    gap: 10px;
 }
 .footer_data{
     display: flex;
@@ -36,7 +38,7 @@
     align-items: center;
     justify-content: center;
     border: #fff 1px solid;
-    width: 10%;
+    width: 15%;
     margin:10px 0;
     cursor: pointer;
 }
